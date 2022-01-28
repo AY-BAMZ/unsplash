@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
+import Header from "./Components/Header/Header";
 import Grids from "./Grids";
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <div>
+          <Header />
           <Grids />
         </div>
       </main>
